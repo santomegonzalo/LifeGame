@@ -1,0 +1,49 @@
+button {
+    background-color: #5d54de;
+    text-transform: uppercase;
+    border: 0px;
+    color: white;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    outline: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4e44f5;
+}
+
+button.disabled {
+    background-color: #d6d6d6;
+}
+
+.controls {
+    margin-bottom: 40px;
+}
+
+.controls .controls-inputs {
+    margin-bottom: 20px;
+}
+
+.controls .controls-inputs .inputs-column {
+    display: inline-block;
+}
+
+.controls .controls-inputs .inputs-column label {
+    font-size: 12px;
+}
+
+.controls .controls-inputs .inputs-column input {
+    border: 1px solid #c7c7c7;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    outline: 0;
+    width: 70px;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+.controls .controls-inputs .inputs-column input:focus {
+    border-left: 5px solid #c7c7c7;
+}

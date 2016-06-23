@@ -1,0 +1,44 @@
+rules:
+  semi:
+    - 2
+    - always
+  comma-dangle:
+    - 0
+  no-mixed-spaces-and-tabs:
+    - 0
+  no-extra-boolean-cast:
+    - 0
+  no-console:
+    - 0
+  no-debugger:
+    - 0
+  jasmine/no-disabled-tests:
+    - 0
+  react/jsx-uses-vars:
+    - 1
+
+env:
+  es6: true
+  node: true
+  browser: true
+  commonjs: true
+  mongo: true
+  amd: true
+  jasmine: true
+  jquery: true
+
+globals:
+  baseDir: true
+
+extends:
+  - 'eslint:recommended'
+
+ecmaFeatures:
+  jsx: true
+  experimentalObjectRestSpread: true
+
+plugins:
+  - react
+  - jasmine
+
+parser: 'babel-eslint'
